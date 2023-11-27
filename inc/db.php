@@ -11,7 +11,7 @@ class db
 {
 	
 public static function connect(){
-   $dsn   = "mysql:host=localhost; dbname=tech";
+   $dsn   = "mysql:host=localhost; dbname=techtouch";
    $user  ="root";
    $pass   = "";
    $con = null;
