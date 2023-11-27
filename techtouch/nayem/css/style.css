@@ -1,0 +1,219 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+
+}
+.error{
+  color:#DD4F43;
+  font-weight: bold;
+}
+
+.success{
+  color:#1EA362;
+  font-weight: bold;
+}
+
+h2, h1, h3, h4, div{
+	margin:0;
+	padding:0;
+}
+
+.col-md-3{
+	padding-left:0px !important;
+	overflow: hidden;
+	clear: both;
+}
+/*universal for all*/
+
+
+.bg-dark{
+	background-color: #1B3F5E !important;
+}
+
+.bg-info{
+	background-color: #285A7A !important;
+}
+
+.top-left .fa-user{
+	font-size:20px;
+	border:1px solid #fff;
+	padding:5px;
+	margin-right:5px;
+    }
+    
+
+ .btn-logout{text-decoration: none;
+ 	font-size:18px; color:#fff;padding:5px;}
+ .btn-logout:hover{color:#fff;text-decoration: none;}
+
+ .logout-text{
+ 	font-size:20px;
+	padding:5px;
+	
+ }
+ .nav-link{
+ 	font-size:20px;
+ 	margin-right:10px;	
+	color:#fff!important;
+}
+
+.navbar{
+	padding-left:0px;
+}
+.nav-first{
+	padding-left:10px;
+}
+
+.navbar-toggler{
+	outline: none!important;
+	border:none!important;
+	padding-left:30px!important;
+}
+.fa-bars{
+  color:#fff!important;
+}
+
+
+ i{
+	font-size:20px;	
+	padding:5px;
+	margin-right:5px;	
+ }
+
+ /*sidebar slyling*/
+
+ .sidebar{
+ 	background-color:#CDDEE5;
+ 	height: 100%;
+ 	
+ }
+
+.point{cursor:pointer;}
+ /*accordion*/
+
+ .sidebar-head{
+ 	color:#000 !important;
+ 	text-decoration:none !important;
+
+ }
+
+  .card-header a:hover{ 
+  	color:#285A7A!important;
+  	transition:.7s;
+  }
+  .card-body a{
+    color: #fff !important;
+    text-decoration: none !important;
+    display: inline-block;
+    background-color: #285A7A!important;
+    width:100%;
+    padding: 10px 15px;
+    margin-bottom: 2px;
+    text-align: center;
+    border-bottom: 2px solid #fff;
+    border-width:100%;
+    overflow: hidden;
+
+  }
+  .card-body a:last-child{
+  	border-bottom:none;
+  }
+   .card-body a:hover{
+  	color: #fff !important;
+    background-color: #547C96!important;
+  }
+  .collapsing{
+  	overflow: hidden;
+  }
+
+
+  /*responsive*/
+  @media (max-width:1199px){
+
+  }
+    /*responsive*/
+  @media (max-width:991px){
+  	  	.navbar-nav{
+  		padding-left:26px !important;
+  	}
+  	 i{
+	font-size:18px;	
+	padding:5px;
+	margin-right:5px;	
+   }
+    }
+ .nav-link{
+ 	font-size:18px;
+ 	margin-right:2px;	
+	color:#fff!important;
+}
+
+  .card-body a{
+    color: #fff !important;
+    width:100%;
+    padding: 5px 5px;
+    margin-bottom: 2px;
+    text-align: center;
+    border-bottom: 2px solid #fff;
+
+  }
+
+  }
+
+  /*responsive*/
+  @media (max-width:767px){
+  	.navbar-nav{
+  		padding-left:26px !important;
+  	}
+  	.sidebar{
+ 	padding:30px 0px;
+ 	width:100%;
+ 	 }
+
+ 	 
+  }
+
+  /*responsive*/
+  @media (max-width:575px){
+  	.navbar-nav{
+  		padding-left:26px !important;
+  	}
+  	.sidebar{
+ 	padding:30px 0px;
+ 	width:100%;
+ 	 }
+
+ 	 .top-left{
+ 	 	padding:20px 0px;
+ 	 }
+ 	 .top-right{
+ 	 	padding:10px 0px 5px 0px;
+ 	 }
+ 	 .top{}
+  }
+
+  /*responsive*/
+
+    /*responsive*/
+
+
+  /*logpage*/
+   .logpage{
+    background-image:linear-gradient(to top, #2098CF, #fff);
+    height: 100vh;
+
+   }
+
+   .logpage-container{
+     background-color: #f7f7f7;
+     padding:20px;
+     border-radius:30px 0px 30px 0px;
+     box-shadow: 3px 3px 10px rgba(0, 0, 0, .7);
+
+   }
+
+   .logpage-container:after{
+     content: "";
+   }
+  /*logpage*/
